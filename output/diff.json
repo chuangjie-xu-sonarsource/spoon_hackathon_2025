@@ -1,0 +1,4 @@
+{
+  "num_changed_dependencies": 1,
+  "diff": "--- pom.xml (before)\n+++ pom.xml (after)\n@@ -70,10 +70,10 @@\n       <version>3.6.0</version>\n\n     </dependency>\n\n     <dependency>\n\n-      <groupId>org.apache.commons</groupId>\n\n-      <artifactId>commons-lang3</artifactId>\n\n-      <version>3.13.0</version>\n\n-    </dependency>\n\n+  <groupId>org.apache.commons</groupId>\n\n+  <artifactId>commons-lang3</artifactId>\n\n+  <version>3.19.0</version>\n\n+</dependency>\n\n   <!-- https://mvnrepository.com/artifact/org.tukaani/xz -->\n\n \t<dependency>\n\n     \t<groupId>org.tukaani</groupId>\n"
+}
