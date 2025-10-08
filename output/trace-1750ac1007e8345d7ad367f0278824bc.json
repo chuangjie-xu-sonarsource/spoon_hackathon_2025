@@ -1,0 +1,381 @@
+{
+  "id": "1750ac1007e8345d7ad367f0278824bc",
+  "timestamp": "2025-10-08T15:43:03.352000Z",
+  "name": "",
+  "input": null,
+  "output": null,
+  "sessionId": null,
+  "release": null,
+  "version": null,
+  "userId": null,
+  "metadata": {
+    "current_iteration": 0,
+    "last_node": "validate",
+    "resourceAttributes": {
+      "telemetry.sdk.language": "python",
+      "telemetry.sdk.name": "opentelemetry",
+      "telemetry.sdk.version": "1.37.0",
+      "service.name": "unknown_service"
+    },
+    "scope": {
+      "name": "langfuse-sdk",
+      "version": "3.6.1",
+      "attributes": {
+        "public_key": "pk-lf-ca82de1c-8b41-4657-b673-44d17877e4eb"
+      }
+    }
+  },
+  "tags": [],
+  "public": false,
+  "environment": "default",
+  "htmlPath": "/project/cmggdvqlw00bfad07buun2gt4/traces/1750ac1007e8345d7ad367f0278824bc",
+  "latency": 62.026,
+  "totalCost": 0.0,
+  "observations": [
+    {
+      "id": "05691d5bc71b3f89",
+      "traceId": "1750ac1007e8345d7ad367f0278824bc",
+      "type": "SPAN",
+      "name": "build_node",
+      "startTime": "2025-10-08T15:43:03.351000Z",
+      "endTime": "2025-10-08T15:44:05.370000Z",
+      "completionStartTime": null,
+      "model": null,
+      "modelParameters": null,
+      "input": {
+        "args": [
+          {
+            "project_root": "/tmp/tmpca3_26vs/spoon_hackathon_2025",
+            "pom_path": "/tmp/tmpca3_26vs/spoon_hackathon_2025/pom.xml",
+            "model": "gpt-4o-mini",
+            "build_cmd": "mvn clean -q -DskipTests package -Dmaven.repo.local=/tmp/tmpca3_26vs/m2_repository",
+            "goal": "Build Succeeds",
+            "metadata": null,
+            "iteration": 0,
+            "max_iterations": 5,
+            "last_build_log": "",
+            "node_status": {},
+            "pending_plan": null,
+            "messages": [],
+            "dependency_search_results": {},
+            "backup_path": null,
+            "vulnerable_dependencies": []
+          }
+        ],
+        "kwargs": {}
+      },
+      "version": null,
+      "metadata": {
+        "resourceAttributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.37.0",
+          "service.name": "unknown_service"
+        },
+        "scope": {
+          "name": "langfuse-sdk",
+          "version": "3.6.1",
+          "attributes": {
+            "public_key": "pk-lf-ca82de1c-8b41-4657-b673-44d17877e4eb"
+          }
+        }
+      },
+      "output": {
+        "project_root": "/tmp/tmpca3_26vs/spoon_hackathon_2025",
+        "pom_path": "/tmp/tmpca3_26vs/spoon_hackathon_2025/pom.xml",
+        "model": "gpt-4o-mini",
+        "build_cmd": "mvn clean -q -DskipTests package -Dmaven.repo.local=/tmp/tmpca3_26vs/m2_repository",
+        "goal": "Build Succeeds",
+        "metadata": null,
+        "iteration": 0,
+        "max_iterations": 5,
+        "last_build_log": "",
+        "node_status": {
+          "build": "success"
+        },
+        "pending_plan": null,
+        "messages": [],
+        "dependency_search_results": {},
+        "backup_path": null,
+        "vulnerable_dependencies": []
+      },
+      "usage": {
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "unit": "TOKENS"
+      },
+      "level": "DEFAULT",
+      "statusMessage": null,
+      "parentObservationId": "1db416e1022a1cde",
+      "promptId": null,
+      "usageDetails": {},
+      "costDetails": {},
+      "environment": "default",
+      "promptName": null,
+      "promptVersion": null,
+      "modelId": null,
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "totalPrice": 0.0,
+      "calculatedInputCost": null,
+      "calculatedOutputCost": null,
+      "calculatedTotalCost": 0.0,
+      "latency": 62019.0,
+      "timeToFirstToken": null,
+      "projectId": "cmggdvqlw00bfad07buun2gt4",
+      "completionTokens": 0,
+      "createdAt": "2025-10-08T15:44:05.579Z",
+      "unit": "TOKENS",
+      "updatedAt": "2025-10-08T15:44:05.580Z",
+      "totalTokens": 0,
+      "promptTokens": 0
+    },
+    {
+      "id": "1ec7c8756b29b33b",
+      "traceId": "1750ac1007e8345d7ad367f0278824bc",
+      "type": "SPAN",
+      "name": "node_build",
+      "startTime": "2025-10-08T15:43:03.352000Z",
+      "endTime": "2025-10-08T15:44:05.369000Z",
+      "completionStartTime": null,
+      "model": null,
+      "modelParameters": null,
+      "input": {
+        "iteration": 0,
+        "project_root": "/tmp/tmpca3_26vs/spoon_hackathon_2025",
+        "model": "gpt-4o-mini"
+      },
+      "version": null,
+      "metadata": {
+        "node_name": "build",
+        "iteration": 0,
+        "status": "success",
+        "resourceAttributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.37.0",
+          "service.name": "unknown_service"
+        },
+        "scope": {
+          "name": "langfuse-sdk",
+          "version": "3.6.1",
+          "attributes": {
+            "public_key": "pk-lf-ca82de1c-8b41-4657-b673-44d17877e4eb"
+          }
+        }
+      },
+      "output": {
+        "node_status": "success"
+      },
+      "usage": {
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "unit": "TOKENS"
+      },
+      "level": "DEFAULT",
+      "statusMessage": null,
+      "parentObservationId": "05691d5bc71b3f89",
+      "promptId": null,
+      "usageDetails": {},
+      "costDetails": {},
+      "environment": "default",
+      "promptName": null,
+      "promptVersion": null,
+      "modelId": null,
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "totalPrice": 0.0,
+      "calculatedInputCost": null,
+      "calculatedOutputCost": null,
+      "calculatedTotalCost": 0.0,
+      "latency": 62017.0,
+      "timeToFirstToken": null,
+      "projectId": "cmggdvqlw00bfad07buun2gt4",
+      "completionTokens": 0,
+      "createdAt": "2025-10-08T15:44:05.579Z",
+      "unit": "TOKENS",
+      "updatedAt": "2025-10-08T15:44:05.579Z",
+      "totalTokens": 0,
+      "promptTokens": 0
+    },
+    {
+      "id": "9d5f4b5e838f30b6",
+      "traceId": "1750ac1007e8345d7ad367f0278824bc",
+      "type": "SPAN",
+      "name": "validate_node",
+      "startTime": "2025-10-08T15:44:05.372000Z",
+      "endTime": "2025-10-08T15:44:05.377000Z",
+      "completionStartTime": null,
+      "model": null,
+      "modelParameters": null,
+      "input": {
+        "args": [
+          {
+            "project_root": "/tmp/tmpca3_26vs/spoon_hackathon_2025",
+            "pom_path": "/tmp/tmpca3_26vs/spoon_hackathon_2025/pom.xml",
+            "model": "gpt-4o-mini",
+            "build_cmd": "mvn clean -q -DskipTests package -Dmaven.repo.local=/tmp/tmpca3_26vs/m2_repository",
+            "goal": "Build Succeeds",
+            "metadata": null,
+            "iteration": 0,
+            "max_iterations": 5,
+            "last_build_log": "",
+            "node_status": {
+              "build": "success"
+            },
+            "pending_plan": null,
+            "messages": [],
+            "dependency_search_results": {},
+            "backup_path": null,
+            "vulnerable_dependencies": []
+          }
+        ],
+        "kwargs": {}
+      },
+      "version": null,
+      "metadata": {
+        "resourceAttributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.37.0",
+          "service.name": "unknown_service"
+        },
+        "scope": {
+          "name": "langfuse-sdk",
+          "version": "3.6.1",
+          "attributes": {
+            "public_key": "pk-lf-ca82de1c-8b41-4657-b673-44d17877e4eb"
+          }
+        }
+      },
+      "output": {
+        "project_root": "/tmp/tmpca3_26vs/spoon_hackathon_2025",
+        "pom_path": "/tmp/tmpca3_26vs/spoon_hackathon_2025/pom.xml",
+        "model": "gpt-4o-mini",
+        "build_cmd": "mvn clean -q -DskipTests package -Dmaven.repo.local=/tmp/tmpca3_26vs/m2_repository",
+        "goal": "Build Succeeds",
+        "metadata": null,
+        "iteration": 0,
+        "max_iterations": 5,
+        "last_build_log": "",
+        "node_status": {
+          "build": "success",
+          "validate": "success"
+        },
+        "pending_plan": null,
+        "messages": [],
+        "dependency_search_results": {},
+        "backup_path": null,
+        "vulnerable_dependencies": []
+      },
+      "usage": {
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "unit": "TOKENS"
+      },
+      "level": "DEFAULT",
+      "statusMessage": null,
+      "parentObservationId": "1db416e1022a1cde",
+      "promptId": null,
+      "usageDetails": {},
+      "costDetails": {},
+      "environment": "default",
+      "promptName": null,
+      "promptVersion": null,
+      "modelId": null,
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "totalPrice": 0.0,
+      "calculatedInputCost": null,
+      "calculatedOutputCost": null,
+      "calculatedTotalCost": 0.0,
+      "latency": 5.0,
+      "timeToFirstToken": null,
+      "projectId": "cmggdvqlw00bfad07buun2gt4",
+      "completionTokens": 0,
+      "createdAt": "2025-10-08T15:44:05.579Z",
+      "unit": "TOKENS",
+      "updatedAt": "2025-10-08T15:44:05.580Z",
+      "totalTokens": 0,
+      "promptTokens": 0
+    },
+    {
+      "id": "f45c215f8bb1c044",
+      "traceId": "1750ac1007e8345d7ad367f0278824bc",
+      "type": "SPAN",
+      "name": "node_validate",
+      "startTime": "2025-10-08T15:44:05.372000Z",
+      "endTime": "2025-10-08T15:44:05.376000Z",
+      "completionStartTime": null,
+      "model": null,
+      "modelParameters": null,
+      "input": {
+        "iteration": 0,
+        "project_root": "/tmp/tmpca3_26vs/spoon_hackathon_2025",
+        "model": "gpt-4o-mini"
+      },
+      "version": null,
+      "metadata": {
+        "node_name": "validate",
+        "iteration": 0,
+        "status": "success",
+        "resourceAttributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.37.0",
+          "service.name": "unknown_service"
+        },
+        "scope": {
+          "name": "langfuse-sdk",
+          "version": "3.6.1",
+          "attributes": {
+            "public_key": "pk-lf-ca82de1c-8b41-4657-b673-44d17877e4eb"
+          }
+        }
+      },
+      "output": {
+        "node_status": "success"
+      },
+      "usage": {
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "unit": "TOKENS"
+      },
+      "level": "DEFAULT",
+      "statusMessage": null,
+      "parentObservationId": "9d5f4b5e838f30b6",
+      "promptId": null,
+      "usageDetails": {},
+      "costDetails": {},
+      "environment": "default",
+      "promptName": null,
+      "promptVersion": null,
+      "modelId": null,
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "totalPrice": 0.0,
+      "calculatedInputCost": null,
+      "calculatedOutputCost": null,
+      "calculatedTotalCost": 0.0,
+      "latency": 4.0,
+      "timeToFirstToken": null,
+      "projectId": "cmggdvqlw00bfad07buun2gt4",
+      "completionTokens": 0,
+      "createdAt": "2025-10-08T15:44:05.579Z",
+      "unit": "TOKENS",
+      "updatedAt": "2025-10-08T15:44:05.580Z",
+      "totalTokens": 0,
+      "promptTokens": 0
+    }
+  ],
+  "scores": [],
+  "projectId": "cmggdvqlw00bfad07buun2gt4",
+  "createdAt": "2025-10-08T15:44:06.000Z",
+  "bookmarked": false,
+  "externalId": null,
+  "updatedAt": "2025-10-08T15:44:05.719Z"
+}
