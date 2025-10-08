@@ -1,11 +1,4 @@
-<!--
-
-    Copyright (C) 2006-2019 INRIA and contributors
-
-    Spoon is available either under the terms of the MIT License (see LICENSE-MIT.txt) of the Cecill-C License (see LICENSE-CECILL-C.txt).
-    You as the user are entitled to choose the terms under which to adopt Spoon.
-
--->
+<?xml version='1.0' encoding='UTF-8'?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -76,6 +69,11 @@
       <artifactId>maven-model</artifactId>
       <version>3.6.0</version>
     </dependency>
+    <dependency>
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-lang3</artifactId>
+  <version>3.19.0</version>
+</dependency>
   <!-- https://mvnrepository.com/artifact/org.tukaani/xz -->
 	<dependency>
     	<groupId>org.tukaani</groupId>
@@ -152,7 +150,11 @@
       <optional>true</optional>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+  <dependency>
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-compress</artifactId>
+  <version>1.28.0</version>
+</dependency></dependencies>
   <build>
     <plugins>
         <plugin>
